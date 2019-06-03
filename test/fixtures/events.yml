@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sport: MyString
+  date: 2019-06-03
+  time: 2019-06-03 10:11:21
+  location: MyString
+  latitude: 1.5
+  longitude: 1.5
+
+two:
+  sport: MyString
+  date: 2019-06-03
+  time: 2019-06-03 10:11:21
+  location: MyString
+  latitude: 1.5
+  longitude: 1.5
