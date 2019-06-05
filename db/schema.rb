@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(version: 2019_06_03_165202) do
 
   create_table "events", force: :cascade do |t|
     t.string "sport"
-    t.date "date"
-    t.time "time"
+    t.integer "time"
+    t.string "date"
     t.string "skill_level"
     t.string "location"
     t.float "latitude"

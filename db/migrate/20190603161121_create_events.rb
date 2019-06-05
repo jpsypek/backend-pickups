@@ -2,8 +2,8 @@ class CreateEvents < ActiveRecord::Migration[5.2]
   def change
     create_table :events do |t|
       t.string :sport
-      t.date :date
-      t.time :time
+      t.integer :time
+      t.string :date
       t.string :skill_level
       t.string :location
       t.float :latitude
