@@ -8,6 +8,6 @@
 UserEvent.destroy_all
 Event.destroy_all
 
-spike = Event.create(sport:"Spikeball", date:"June 5, 2019", time:16, skill_level: "Advanced", location: "Wash Park", latitude: 39.702031, longitude: -104.971130)
-soccer = Event.create(sport:"Soccer", date:"June 8, 2019", time:14, skill_level: "Beginner", location: "Cheeseman Park", latitude: 39.734174, longitude: -104.966106)
-soccer = Event.create(sport:"Soccer", date:"July 12, 2019", time:14, skill_level: "Advanced", location: "City Park", latitude: 39.745726, longitude: -104.956894)
+spike = Event.create(sport:"Spikeball", time: DateTime.parse("15th Jun 2019 18:00:00"), skill_level: "Advanced", latitude: 39.702031, longitude: -104.971130)
+soccer = Event.create(sport:"Soccer", time: DateTime.parse("14th Jun 2019 14:00:00"), skill_level: "Beginner", latitude: 39.734174, longitude: -104.966106)
+soccer = Event.create(sport:"Soccer", time: DateTime.parse("18th Jun 2019 18:00:00"), skill_level: "Advanced", latitude: 39.745726, longitude: -104.956894)

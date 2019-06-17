@@ -1,3 +1,3 @@
 class EventSerializer < ActiveModel::Serializer
-  attributes :id, :sport, :time, :date, :skill_level, :location, :latitude, :longitude, :users
+  attributes :id, :sport, :time, :skill_level, :latitude, :longitude, :users, :user_events, :owner
 end
