@@ -1,6 +1,6 @@
 # Sportster
 
-Sportster is an online resource to create and view all pick-up sports that are happening in your area. This application was built with React and the Google Maps API utilizing a RESTful API built with Ruby on Rails and a Postgres database.
+Sportster is an online resource to create and view all pick-up sporting events that are happening in your area. This application was built with React and the Google Maps API utilizing a RESTful API built with Ruby on Rails and a Postgres database.
 
 ## Getting Started
 
@@ -13,7 +13,6 @@ Sportster is an online resource to create and view all pick-up sports that are h
 ## Authors
 
 * **Jack Sypek**
-
 
 ## Acknowledgments
 
