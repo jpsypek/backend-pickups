@@ -11,6 +11,7 @@ group :production, :test do
     gem 'rspec-rails', '~> 3.0'
 end
 
+gem 'bundler', '~> 2.0.1'
 gem 'shoulda', '~> 3.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
